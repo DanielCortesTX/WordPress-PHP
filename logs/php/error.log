@@ -1,0 +1,2 @@
+[25-Mar-2019 19:31:03 UTC] PHP Parse error:  syntax error, unexpected ''<p>Hello, this s my first fun' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[25-Mar-2019 19:44:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 8
