@@ -6,3 +6,12 @@
 [25-Mar-2019 18:30:42] NOTICE: ready to handle connections
 [25-Mar-2019 19:47:41] NOTICE: Terminating ...
 [25-Mar-2019 19:47:41] NOTICE: exiting, bye-bye!
+[27-Mar-2019 16:30:36] NOTICE: fpm is running, pid 92
+[27-Mar-2019 16:30:36] NOTICE: ready to handle connections
+[28-Mar-2019 21:42:09] NOTICE: fpm is running, pid 86
+[28-Mar-2019 21:42:09] NOTICE: ready to handle connections
+[28-Mar-2019 21:47:13] NOTICE: Terminating ...
+[28-Mar-2019 21:47:13] NOTICE: exiting, bye-bye!
+[28-Mar-2019 21:48:15] NOTICE: fpm is running, pid 58
+[28-Mar-2019 21:48:15] NOTICE: ready to handle connections
+[28-Mar-2019 23:03:22] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
