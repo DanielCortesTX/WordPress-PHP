@@ -1,3 +1,19 @@
 [25-Mar-2019 19:31:03 UTC] PHP Parse error:  syntax error, unexpected ''<p>Hello, this s my first fun' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 3
 [25-Mar-2019 19:44:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/index.php on line 8
 [28-Mar-2019 23:08:34 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 4
+[29-Mar-2019 17:10:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_theme_support(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 12 and exactly 1 expected in /app/public/wp-includes/theme.php:2334
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/functions.php(12): add_theme_support()
+#1 /app/public/wp-includes/class-wp-hook.php(286): university_features('')
+#2 /app/public/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /app/public/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /app/public/wp-settings.php(489): do_action('after_setup_the...')
+#5 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#6 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#7 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#8 /app/public/index.php(17): require('/app/public/wp-...')
+#9 {main}
+  thrown in /app/public/wp-includes/theme.php on line 2334
+[29-Mar-2019 17:24:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[29-Mar-2019 17:30:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/page.php on line 22
+[29-Mar-2019 17:39:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /app/public/wp-content/themes/fictional-university-theme/page.php on line 21
