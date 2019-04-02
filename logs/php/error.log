@@ -25,3 +25,7 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/fictional-university-theme/index.php on line 25
+[02-Apr-2019 02:02:20 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 48
+[02-Apr-2019 02:02:20 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 48
+[02-Apr-2019 02:02:35 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 48
+[02-Apr-2019 02:03:19 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 52
