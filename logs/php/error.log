@@ -85,3 +85,7 @@ Stack trace:
 #3 /app/public/index.php(17): require('/app/public/wp-...')
 #4 {main}
   thrown in /app/public/wp-content/plugins/advanced-custom-fields/includes/api/api-template.php on line 20
+[05-Apr-2019 17:50:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 23
+[05-Apr-2019 17:50:59 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 23
+[05-Apr-2019 17:51:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 23
+[05-Apr-2019 17:52:13 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 24

@@ -16,9 +16,9 @@
         <h2 class="headline headline--small-plus t-center">Upcoming Events</h2>
 
         <?php 
-        $today = date('Ymd');
+          $today = date('Ymd');
           $homepageEvents = new WP_Query(array(
-            'posts_per_page' => -1,
+            'posts_per_page' => 2,
             'post_type' => 'event',
             'meta_key' => 'event_date',
             'orderby' => 'meta_value_num',
