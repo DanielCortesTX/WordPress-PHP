@@ -1,5 +1,5 @@
 <?php 
-function university_post_types() {
+  function university_post_types() {
     register_post_type('event', array(
       'supports' => array('title', 'editor', 'excerpt'),
       'rewrite' => array('slug' => 'events'),
@@ -17,4 +17,4 @@ function university_post_types() {
   }
 
   add_action('init', 'university_post_types');
-  ?>
+?>
